@@ -21,6 +21,8 @@
 		8316B647196BC07D004A8B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8316B629196BC07D004A8B5E /* UIKit.framework */; };
 		8316B64F196BC07D004A8B5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8316B64D196BC07D004A8B5E /* InfoPlist.strings */; };
 		8316B651196BC07D004A8B5E /* GroupMessagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8316B650196BC07D004A8B5E /* GroupMessagingTests.m */; };
+		83B546C0196BC1420084BADC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B546BE196BC1420084BADC /* AddressBook.framework */; };
+		83B546C1196BC1420084BADC /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B546BF196BC1420084BADC /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		8316B64C196BC07D004A8B5E /* GroupMessagingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GroupMessagingTests-Info.plist"; sourceTree = "<group>"; };
 		8316B64E196BC07D004A8B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8316B650196BC07D004A8B5E /* GroupMessagingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupMessagingTests.m; sourceTree = "<group>"; };
+		83B546BE196BC1420084BADC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		83B546BF196BC1420084BADC /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B546C0196BC1420084BADC /* AddressBook.framework in Frameworks */,
+				83B546C1196BC1420084BADC /* AddressBookUI.framework in Frameworks */,
 				8316B628196BC07D004A8B5E /* CoreGraphics.framework in Frameworks */,
 				8316B62A196BC07D004A8B5E /* UIKit.framework in Frameworks */,
 				8316B626196BC07D004A8B5E /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		8316B624196BC07D004A8B5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83B546BE196BC1420084BADC /* AddressBook.framework */,
+				83B546BF196BC1420084BADC /* AddressBookUI.framework */,
 				8316B625196BC07D004A8B5E /* Foundation.framework */,
 				8316B627196BC07D004A8B5E /* CoreGraphics.framework */,
 				8316B629196BC07D004A8B5E /* UIKit.framework */,
@@ -456,6 +464,7 @@
 				8316B656196BC07D004A8B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8316B657196BC07D004A8B5E /* Build configuration list for PBXNativeTarget "GroupMessagingTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				8316B659196BC07D004A8B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
